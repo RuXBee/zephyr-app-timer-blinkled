@@ -1,0 +1,16 @@
+{
+    "terminal.integrated.env.linux": {
+        "ZEPHYR_BASE": "${env:HOME}/zephyrproject/zephyr"
+    },
+    "python.envFile": "${HOME}/zephyrproject/.venv/bin/activate",
+    "files.associations": {
+        "kernel.h": "c",
+        "kernel_includes.h": "c",
+        "sections.h": "c",
+        "atomic.h": "c",
+        "__assert.h": "c",
+        "slist.h": "c",
+        "syscall.h": "c",
+        "stdbool.h": "c"
+    },
+}
