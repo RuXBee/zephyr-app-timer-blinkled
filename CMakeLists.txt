@@ -4,4 +4,14 @@ set(BOARD atsamd21_xpro)
 find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 project(my_zephyr_app)
 
-target_sources(app PRIVATE src/main.c)
+target_include_directories(app PRIVATE
+    .   
+    src
+    src/include
+)
+
+target_sources(app PRIVATE
+    src/main.c
+    src/user_button.c
+    src/user_led.c
+)

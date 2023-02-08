@@ -4,13 +4,19 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${HOME}/zephyrproject/zephyr/include/"
+                "${workspaceFolder}/src/include",
+                "${workspaceFolder}/src/include",
+                "/home/ruben/zephyrproject/zephyr/",
+                "/home/ruben/zephyrproject/zephyr/drivers",
+                "/home/ruben/Projects/zephyr/zephyr-app-timer-blinkled/build/zephyr/include/generated/",
+                "/home/ruben/zephyrproject/zephyr/include"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/gcc",
-            "cStandard": "gnu17",
-            "cppStandard": "gnu++17",
-            "intelliSenseMode": "linux-gcc-x64"
+            "compilerPath": "${HOME}/zephyr-sdk-0.15.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "${default}",
+            "configurationProvider": "nrf-connect"
         }
     ],
     "version": 4
